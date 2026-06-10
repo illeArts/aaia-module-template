@@ -9,10 +9,10 @@ public sealed class TemplateService(IDevDiagnosticsBus bus)
 {
     public string Greet(string name)
     {
-        bus.Publish(new DevDiagnosticsEvent(
-            Source:   "template",
-            Message:  $"Greet called for '{name}'",
-            Severity: DevEventSeverity.Info
+        bus.Publish(DevDiagnosticsEvent.Info(
+            source:      "template",
+            componentId: "template",
+            message:     $"Greet called for '{name}'"
         ));
 
         return $"Hello, {name}! Template module is running.";
