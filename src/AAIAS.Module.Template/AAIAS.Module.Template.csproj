@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>Aaias.Modules.Template</RootNamespace>
+    <AssemblyName>AAIAS.Module.Template</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AAIA.Shared.Contracts" Version="2.0.0" />
+  </ItemGroup>
+</Project>

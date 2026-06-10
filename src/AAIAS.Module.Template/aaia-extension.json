@@ -1,0 +1,13 @@
+{
+  "id":          "com.example.template",
+  "displayName": "Template Module",
+  "version":     "1.0.0",
+  "host":        "AAIAS",
+  "kind":        "Module",
+  "assembly":    "AAIAS.Module.Template.dll",
+  "description": "A starting point for AAIA modules.",
+  "author":      "Your Name",
+  "permissions": [],
+  "supportedPlatforms": ["all"],
+  "minHostVersion": "2.0.0"
+}
